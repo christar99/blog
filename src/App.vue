@@ -1,23 +1,19 @@
 <template>
-  <v-app>
-    <v-main>
-      <HelloWorld/>
-    </v-main>
-  </v-app>
+	<v-app>
+		<v-main> 
+			<v-row>
+				<v-col>efhneowf</v-col>
+			</v-row>
+		</v-main>
+	</v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-
-  components: {
-    HelloWorld,
-  },
-
-  data: () => ({
-    //
-  }),
+	name: 'App',
+	mouted() {
+		console.log(this.$store);
+	}
 }
 </script>
