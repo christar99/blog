@@ -2,7 +2,7 @@
 	<v-app>
 		<v-main> 
 			<v-row>
-				<v-col>efhneowf</v-col>
+				<v-col>asdsad</v-col>
 			</v-row>
 		</v-main>
 	</v-app>
